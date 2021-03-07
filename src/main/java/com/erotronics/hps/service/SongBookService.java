@@ -46,6 +46,10 @@ public class SongBookService {
         return  liveEvents;
     }
 
+    public void clearCache() {
+        liveEventRepository.deleteAll();
+    }
+
     public LiveEvent updateSong(LiveEvent postCode) {
       if (liveEventRepository.findById(postCode.getId()).isPresent())
       {

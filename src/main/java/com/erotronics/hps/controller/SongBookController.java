@@ -51,7 +51,14 @@ public class SongBookController {
             headers = { "church=globe", "town=reading" }, consumes = MediaType.ALL_VALUE, method =  RequestMethod.POST)
     public LiveEvent eventsUpdate(@RequestBody LiveEvent postcode) {
          return songBookService.updateSong(postcode);
+    }
 
+    @RequestMapping(
+            value = "/events/update",
+            headers = { "church=globe", "town=reading" }, consumes = MediaType.ALL_VALUE, method =  RequestMethod.DELETE)
+    public HttpStatus deleteAll() {
+        songBookService.clearCache();
+        return HttpStatus.ACCEPTED;
     }
 
 }

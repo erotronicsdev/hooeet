@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableCaching
-@ComponentScan({"com.erotronics.songbook.controller", "com.erotronics.songbook.service" })
+@ComponentScan({"com.erotronics.hps.controller", "com.erotronics.hps.service" })
 public class HooeetApplication implements CommandLineRunner {
 
 	@Autowired
