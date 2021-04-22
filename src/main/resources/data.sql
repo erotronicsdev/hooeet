@@ -1,11 +1,8 @@
-DROP TABLE IF EXISTS LIVE_EVENTS;
+DROP TABLE IF EXISTS song_lyrics;
 
-CREATE TABLE LIVE_EVENTS (
-  event_code VARCHAR(250) PRIMARY KEY,
-  live_song VARCHAR(250) NOT NULL,
-  current_verse VARCHAR(250) DEFAULT NULL
+CREATE TABLE song_lyrics (
+song_id VARCHAR(250) PRIMARY KEY,
+  user_name VARCHAR(250) NOT NULL,
+  song_name VARCHAR(250) NOT NULL,
+  song_lyrics VARCHAR(10000) DEFAULT NULL
 );
-
-INSERT INTO LIVE_EVENTS (event_code, live_song, current_verse) VALUES
-  ('234567', 'amazing grace', 'verse 4'),
-  ('4999559', 'amazing grace', 'verse 3');

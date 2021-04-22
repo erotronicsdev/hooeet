@@ -1,28 +1,41 @@
-[
-{
-    "Verse 1": [
-      "Amazing grace",
-      "How sweet the sound.",
-      "That saved a wretch like me.",
-      "I once was lost But now I'm found.",
-      "Was blind, but now I see."
-    ],
-    "Verse 2": [
+[{
+  "type" : "verse",
+  "number" : "1",
+  "words" : [
+    "Amazing grace",
+    "How sweet the sound.",
+    "That saved a wretch like me.",
+    "I once was lost But now I'm found.",
+    "Was blind, but now I see."
+  ]
+},
+  {
+    "type" : "verse",
+    "number" : "2",
+    "words" : [
       "'Twas grace that taught.",
       "My heart to fear And grace my",
       "Fears relieved How precious did",
       "That grace appear",
       "The hour I first believed"
-    ],
-    "Verse 3": [
+    ]
+  },
+  {
+    "type" : "verse",
+    "number" : "3",
+    "words" : [
       "Through many dangers",
       "Toils and snares",
       "We have already come",
       "'Twas grace hath brought",
       "Us safe thus far",
       "And grace will lead us home"
-    ],
-    "Verse 4": [
+    ]
+  },
+  {
+    "type" : "verse",
+    "number" : "4",
+    "words" : [
       "When we've been there",
       "Ten thousand years",
       "Bright shining as the sun",

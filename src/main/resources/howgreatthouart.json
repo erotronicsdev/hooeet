@@ -1,0 +1,42 @@
+[{
+  "type" : "verse",
+  "number" : "1",
+  "words" : [
+    "Oh Lord, my God",
+    "When I, in awesome wonder",
+    "Consider all the worlds Thy hands have made",
+    "I see the stars, I hear the rolling thunder",
+    "Thy power throughout the universe displayed"
+  ]
+},
+  {
+    "type" : "verse",
+    "number" : "2",
+    "words" : [
+      "Then sings my soul, my Savior God to Thee",
+      "How great Thou art, how great Thou art",
+      "Then sings my soul, my Savior God to Thee",
+      "How great Thou art, how great Thou art"
+    ]
+  },
+  {
+    "type" : "verse",
+    "number" : "3",
+    "words" : [
+      "And when I think that God, His Son not sparing",
+      "Sent Him to die, I scarce can take it in",
+      "That on the cross, my burden gladly bearing",
+      "He bled and died to take away my sin"
+    ]
+  },
+  {
+    "type" : "verse",
+    "number" : "4",
+    "words" : [
+      "When Christ shall come, with shout of acclamation",
+      "And take me home, what joy shall fill my heart",
+      "Then I shall bow, in humble adoration",
+      "And then proclaim, my God, how great Thou art"
+    ]
+  }
+]
